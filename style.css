@@ -1,0 +1,82 @@
+
+.content {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 360px;
+    padding: 150px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+/* Aggiungo tutta la img sul fondo grazie a cover */
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.intro {
+    color: rgb(32, 255, 58);
+    font-size: 21px;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    padding: 1px
+}
+
+nav {
+    background-color: rgba(13, 255, 4, 0.8);
+    padding: 14px;
+    margin: 50px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.opzioni{
+    text-align: center;
+}
+
+.Monopattino{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 50px
+}
+
+/* ho bisogno di separare gli input */
+
+.gino{
+    background-color: rgba(245,180,83,255);
+    padding: 7px;
+    border-radius: 7px;
+    width: 490px;
+}
+
+.mike{
+    background-color: rgba(30,195,30,255);
+    padding: 7px;
+    border-radius: 7px;
+    width: 790px;
+}
+
+/* ogni input bisogna cambiare il colore dil background */
+
+.fede{
+    background-color: rgba(190,65,65,255);
+    padding: 7px;
+    border-radius: 7px;
+    width: 150px;
+}
